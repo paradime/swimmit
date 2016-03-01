@@ -2,5 +2,6 @@
   - drills.each do |drill|
     %tr
       %td= drill.category
+      %td= "#{drill.distance} meters"
       %td
         = render 'shared/exercises', exercises: drill.exercises

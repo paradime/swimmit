@@ -1,0 +1,10 @@
+%table.table
+  %tr
+    %th Name
+    %th Description
+    %th Distance
+  - @workouts.each do |workout|
+    %tr
+      %td= link_to workout.name, workout_path(workout)
+      %td= workout.description
+      %td 50 meters

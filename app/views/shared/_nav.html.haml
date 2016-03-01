@@ -3,7 +3,6 @@
     #navbar-container.navbar-header
       = link_to 'Swimmit'.html_safe, root_path, class: 'navbar-brand', id: 'brand-text'
     %ul.nav.navbar-nav
-      %li 
-        %a Workouts 
+      %li= link_to 'Workouts', workouts_path
       %li
         %a link

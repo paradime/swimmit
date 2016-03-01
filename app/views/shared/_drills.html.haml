@@ -1,0 +1,6 @@
+%table.table
+  - drills.each do |drill|
+    %tr
+      %td= drill.category
+      %td
+        = render 'shared/exercises', exercises: drill.exercises

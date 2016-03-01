@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  distance: 1
+  repetitions: 1
+  stroke: MyString
+  rest: 1
+  interval: 1
+  set_id: 
+
+two:
+  distance: 1
+  repetitions: 1
+  stroke: MyString
+  rest: 1
+  interval: 1
+  set_id: 

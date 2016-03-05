@@ -7,7 +7,8 @@ class Exercise < ActiveRecord::Base
     'Breast Stroke',
     'IM',
     'Pull',
-    'Kick'
+    'Kick',
+    'Choice'
   ]
 
   belongs_to :drill

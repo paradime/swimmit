@@ -1,0 +1,12 @@
+.row
+  .col-md-3
+    %h1 Reps
+  .col-md-3
+    %h1 Distance
+.row
+  = form_tag do
+    .col-md-3
+      = collection_select :repetitions, :to_i, (1..30), :to_i, :to_s, {}, id: 'selectize1'
+    .col-md-3
+      = number_field :distance, in: (25..1000), step: 25
+    .col-md-3

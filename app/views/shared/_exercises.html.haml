@@ -1,7 +1,8 @@
 %table.table.table-striped
-  - exercises.each do |exercise|
-    %tr
-      %td= "#{exercise.repetitions} x"
-      %td= "#{exercise.distance} meters"
-      %td= exercise.stroke
-      %td= "on #{exercise.interval} seconds"
+  %tbody#sortable1
+    - exercises.each do |exercise|
+      %tr
+        %td= "#{exercise.repetitions} x"
+        %td= "#{exercise.distance} meters"
+        %td= exercise.stroke
+        %td= "on #{exercise.interval} seconds"
